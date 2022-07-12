@@ -1,0 +1,17 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "test_site",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js -o bundle.js\n"
+
+  },
+  "author": "Nikitskaja Alex <varya.nika@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "fs": "^0.0.1-security"
+  }
+}

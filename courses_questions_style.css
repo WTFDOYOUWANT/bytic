@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    min-height: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #393939;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:active {
+    text-decoration: none;
+    color: #393939;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+nav {
+    margin-left: 50px;
+    margin-bottom: 25px;
+
+
+}
+
+li {
+    margin-top: 25px;
+}
+
+a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+
+#okno {
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #88c05b;
+    border-radius: 10px;
+    color: #88c05b;
+    display: none;
+    background: white;
+
+    /*позиционируем и центрируем*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#okno:target {display: block;}
+
+h1 {
+    margin-top: 50px;
+}
+#test-dropdown {
+    width: 400px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+#test-dropdown:active {
+    color: #88c05b;
+}
+
+button {
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+    border-radius: 8px;
+    color: white;
+    border: 0;
+}
+
+.ok_no {
+    bottom: 40px;
+    width: 1200px;
+}
+
+button {
+    background: #374029;
+    width: 250px;
+}
+
+button:hover {
+    background: #536040;
+}
+
+button:active {
+    background: #000000;
+}
+
+
+#ok {
+    float: left;
+    margin-left: 10px;
+}
+
+#quit {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+}

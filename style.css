@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 90px;
+    min-height: 100%;
+
+}
+
+.liner {
+    margin-top: 15px;
+}
+
+
+label {
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #88c05b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+input {
+    border-radius: 8px;
+    position: relative;
+    height: 45px;
+    font-size: 25px;
+    border: 2px solid #88c05b;
+    color: #709650;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    width: 1200px;
+}
+
+input:focus {
+    outline: 2px solid #79A455;
+}
+
+#description {
+    border-radius: 8px;
+    height: 250px;
+    resize: none;
+    width: 1200px;
+    font-size: 25px;
+    border: 2px solid #88c05b;
+    color: #709650FF;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+
+}
+
+#description:focus {
+    outline: 2px solid #79A455;
+
+}
+
+button {
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+    float: right;
+    border-radius: 8px;
+    color: white;
+    border: 0px;
+}
+
+#delete {
+    background: #99c45a;
+    width: 300px;
+}
+
+#delete:hover {
+    background: #78954b;
+}
+
+#delete:active {
+    background: #516036;
+}
+
+.ok_no {
+    position:absolute;
+    bottom: 50px;
+    width: 1200px;
+}
+
+#back, #ok {
+    background: #374029;
+    width: 250px;
+}
+
+#back:hover, #ok:hover {
+    background: #536040;
+}
+
+#back:active, #ok:active {
+    background: #000000;
+}
+
+#back {
+    float: right;
+}
+
+#ok {
+    float: left;
+}

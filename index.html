@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Курсы</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap" rel="stylesheet">
+</head>
+<body >
+    <script src="bundle.js" charset="utf-8"></script>
+
+    <div class="courses">
+        <div id="container">
+            <div class="liner">
+                <label for="title">
+                    Название курса
+                </label>
+                <div class="title_class">
+                    <input type="text" id="title" placeholder="Введите название курса"
+                           name="title"  required  minlength="4">
+                </div>
+            </div>
+            <div class="liner">
+                <label for="link">
+                    Ссылка на курс
+                </label>
+                <div class="link_class">
+                    <input type="text" id="link" placeholder="Вставьте ссылку на курс"
+                           name="link"  required  minlength="4">
+                </div>
+            </div>
+            <div class="liner">
+                <label for="description">
+                    Описание курса
+                </label>
+                <div class="description_class">
+                    <textarea id="description" placeholder="Введите описание курса"
+                              name="description" rows="5" maxlength="1000"></textarea>
+                </div>
+            </div>
+            <button name="back" id="delete" onclick="del()">Удалить курс</button>
+            <div class="ok_no">
+                <button name="back" id="back" onclick="back()">Назад</button>
+                <button name="ok" id="ok" onclick="okay()">Принять</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
