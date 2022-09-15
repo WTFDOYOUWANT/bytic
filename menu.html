@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор курсов и вопросов</title>
+    <link rel="stylesheet" href="courses_questions_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container" id="home">
+        <div id="okno">
+            <h1>Выберите курс</h1>
+            <select id="test-dropdown" onchange="">
+                <option value="1">Курс один</option>
+                <option value="2">Курс два</option>
+                <option value="3">Курс три</option>
+            </select>
+
+            <div class="ok_no">
+                <button name="back" id="back" onclick="location.href = 'courses_questions.html'">Назад</button>
+                <button name="ok" id="ok" onclick="location.href = 'index.html'">Принять</button>
+            </div>        </div>
+        <div class="group" id="questions">
+            <img src="assets/questions.png" alt="">
+            <nav>
+                <li><a href="add_question.php">Создание вопросов</a></li>
+                <li><a href="change_question.php">Редактирование вопросов</a></li>
+            </nav>
+        </div>
+        <div class="group" id="courses">
+            <img src="assets/courses.png" alt="">
+            <nav>
+                <li><a href="add_course.php">Создание курсов</a></li>
+                <li><a href="change_course.php">Редактирование курсов</a></li>
+            </nav>
+        </div>
+        <div class="group" id="groups">
+            <img src="assets/Groups.png" alt="">
+            <nav>
+                <li><a href="add_group.php">Создание групп</a></li>
+                <li><a href="change_group.php">Редактирование групп</a></li>
+            </nav>
+        </div>
+        <a href="index.html"><button style="margin-left: 35%; margin-top: 15%; margin-bottom: 3%;" name="quit" id="quit">Выйти</button></a>
+    </div>
+</body>
+</html>

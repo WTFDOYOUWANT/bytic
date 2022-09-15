@@ -23,7 +23,7 @@ html {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 50px;
     min-height: 100%;
 }
 
@@ -33,6 +33,10 @@ a {
     color: #393939;
     font-weight: bold;
     font-size: 20px;
+}
+
+.passive {
+  font-weight: normal;
 }
 
 a:active {
@@ -55,7 +59,6 @@ li {
 }
 
 a:hover {
-    font-weight: bolder;
     text-decoration: underline;
 
 }
@@ -103,16 +106,8 @@ button {
     font-weight: lighter;
     margin-top: 80px;
     border-radius: 8px;
-    color: white;
     border: 0;
-}
-
-.ok_no {
-    bottom: 40px;
-    width: 1200px;
-}
-
-button {
+    color: white;
     background: #374029;
     width: 250px;
 }
@@ -125,16 +120,113 @@ button:active {
     background: #000000;
 }
 
+a.button {
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    background: #374029;
+    width: 250px;
+}
+
+a.button:hover {
+    background: #536040;
+}
+
+a.button:active {
+    background: #000000;
+}
+
+
+
+.ok_no {
+    bottom: 0;
+    width: 1000px;
+    position: absolute;
+   }
+
+
+
+
+
 
 #ok {
     float: left;
     margin-left: 10px;
+    height: 45px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    background: #374029;
+    width: 250px;
+}
+
+#ok:hover {
+    background: #536040;
+}
+
+#ok:active {
+    background: #000000;
 }
 
 #quit {
-    position: absolute;
+    position: relative;
     margin: auto;
-    left: 0;
-    right: 0;
-    bottom: 60px;
+}
+
+#delete {
+  background: #88c05b;
+  margin-top: 6px;
+  margin-left: 30px;
+  position: absolute;
+  border-radius: 3px;
+  color: white;
+  font-size: 25px;
+  width: 16%;
+
+}
+
+#delete:hover {
+  background: #536040;
+
+}
+
+#delete:active {
+  background: black;
+}
+
+input {
+  border-radius: 8px;
+  height: 60px;
+  font-size: 25px;
+  width: 60%;
+  border: 3px solid #88c05b;
+  padding-left: 10px;
+}
+
+input:focus {
+  border-color: #536040;
+  outline:none;
+
+}
+
+h1 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: #88c05b;
+}
+
+img {
+    max-width: 100%;
 }
